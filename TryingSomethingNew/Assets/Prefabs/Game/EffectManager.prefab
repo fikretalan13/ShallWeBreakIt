@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9190995073029385729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6810361808726111294}
+  - component: {fileID: 7592951485139945001}
+  m_Layer: 0
+  m_Name: EffectManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6810361808726111294
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9190995073029385729}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7592951485139945001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9190995073029385729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa55f11f045ff941b441e48ecdd7e8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruitsEffects:
+  - {fileID: 6911291066579771362, guid: 27807d1de14f77643b2ae523c4633906, type: 3}
+  - {fileID: 1850144114476137665, guid: 9982c3023fd2a6f44912914de863b5e9, type: 3}
+  - {fileID: 449283218851683411, guid: a7d63bb0c1293ef4296c36183c42ccc3, type: 3}
+  - {fileID: 8293127921628769111, guid: 469aef5ffcd126a45b4c1efe7bcadec6, type: 3}
+  - {fileID: 1322540451727537657, guid: 22a190970caa0fb46a75a14236167d33, type: 3}
+  - {fileID: 2487022031426992805, guid: 6a0bdd0e2cd8eba42b8ab80462fd05f0, type: 3}
+  - {fileID: 3829401187726432967, guid: aced945951553804890da11171a94ca5, type: 3}
+  - {fileID: 8588866102003234947, guid: d553783d57af4254d99088f5f64f6f29, type: 3}
